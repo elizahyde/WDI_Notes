@@ -1,0 +1,19 @@
+jQuery Cheatsheet: http://oscarotero.com/jquery/
+
+jQuery Selector
+$()
+	<HTML OBJECT>
+	$()
+Basic jQuery Selector
+	$("#nav_bar")
+	$(".picture")
+	$("li")
+	$("li,p,strong")
+
+	It returns a jQuery object and it also has an array of the object
+	1. Matching HTML objects in an array
+	2. jQuery object functionality
+
+Running a jQuery method on a jQuery method
+	$("#nav_bar").hide() #hide navbar
+	$(".picture").hide() #hide all pictures

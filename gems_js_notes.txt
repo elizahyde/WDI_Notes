@@ -1,0 +1,87 @@
+gems
+
+Why not clone instead of install gem?
+	* low risk to use gem (ppl don't just kill it)
+	* built in work process that handle multiple gems well
+	* does install but does it behind the scenes
+
+* Stock Quote gem  github.com/tyrauber/stock_quote
+* Movies gem github.com/oleander/Movies
+* Images github.com/maurimiranda/image_suckr
+---------------------------------------------------------------------------------------------------------------------
+Post vs Get
+	Post-info sent behind the screen, URL pretty (doesnt show the input), refreshing resubmits the info (those annoying popups...but good to keep viruses from taking over)
+	Get-sometimes you want the direct link so you can send the results (i.e. google search results), can be bookmarked
+---------------------------------------------------------------------------------------------------------------------
+Javascript: Like Ruby. Not as pretty.
+	-Run on the server of the client side unlike ruby which is run on your server
+	-Can be run in a console or from a text file read by the browser
+Data Types:
+	-Number
+	-String
+	-Boolean
+	-Object
+	-Function
+	-Array
+
+* first time you initiative a variable in javascript you must call "var" later on you can just run it. 
+* JS will look for a var in a code first anywhere in the code and jump it to the top to initialize it (boisting).
+	Therefore, only use var when you are intentionaly trying to initialize something
+
+Input/Output:
+	alert("This is outputted text")
+
+	var name = prompt("Give me your name")
+
+	name
+	#joe
+Converting String/Numbers:
+	typeof 42
+	#number
+
+	(42).toString()
+	#"42"
+
+	parseInt("42")
+	#42
+Case Statements - switch()
+	(in .js file)
+
+	swith(name){
+		case "sumeet":
+			alert("sumeet!");
+			break;
+		case "joe":
+			alert("not sumeet!");
+			break;
+	}
+Loops - while() for()
+	--while()--
+	var colors = [];
+
+	var color = prompt("Enter a color");
+
+	while (color != "q"){
+		colors.push(color);
+
+		color = prompt("Enter a color");           #asks for colors
+	}
+
+	______for (var i=0, length, i++)__________
+	
+	for(var index = 0, index < colors.length, index++){
+		alert(colors[index]);                                   #prints out colors
+	}
+
+Functions
+	function funcname(variable){
+		return (number * number);
+	}
+
+	function cube(number){
+		return (square(number) * number);
+	}
+
+	function area(width, length){
+		return (length * width);
+	}
