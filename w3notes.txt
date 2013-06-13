@@ -1,0 +1,7 @@
+Models-conside, literaly presentation of what things are
+
+Controllers-almost nothing to do with construction of a model. In Sinatra we have been combing controlers and routes.
+
+View-templates to store information in a certain way to show data.
+http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+

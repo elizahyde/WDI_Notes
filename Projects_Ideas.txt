@@ -1,0 +1,16 @@
+WDI1 Projects:
+
+https://github.com/sbarnekow/sbarnekow.github.io
+https://github.com/mattcano/PillBox
+https://github.com/ahegyi/rentsplit 
+https://github.com/ahegyi/vibe
+https://github.com/ahegyi/rentsplit
+https://github.com/miclowe/Bookworm2
+https://github.com/wjpark/line_up
+https://github.com/agsdot/gaMapQuery
+https://github.com/agsdot/mprss
+https://github.com/jeffthestampede/cssdash
+https://github.com/phildinuzzo/goodfood
+https://github.com/sherodtaylor/portfolio
+https://github.com/andris310/portfolio_site
+https://github.com/tdnguyen85/quote8

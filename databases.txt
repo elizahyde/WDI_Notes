@@ -1,0 +1,36 @@
+LAMP is a combination of free, open source software. The acronym LAMP refers to the first letters of Linux (operating system), Apache HTTP Server, MySQL (database software), and PHP, Perl or Python, principal components to build a viable general purpose web server.[1]
+p = php or perl or python
+
+
+Postgres is a SQL database - open source http://www.postgresql.org/docs/9.1/static/datatype.html
+	type psql in terminal to open
+	case insensitive except with names so use lowercase
+		\q #to quit
+		\l #shows list of databases
+		create database name;  #to create       <----must use semicolons
+		\c <name>  #to connect to database
+		\d #shows which tables or relations are in the database with details
+		create table name (<column><type><options>,);
+		--------DATATYPES: varchar	int 	char 	bigint 	bigserial 	box 	date  money  text  time  timestamo  and more!
+		select * from <database>;  # shows data that was inserted
+		update people set age = 46, gender = 'm' WHERE first = 'bob;
+		delete from people where first = 'jaime';
+		"not null" as option requires that column to be included when setting
+		"primary key" as option is the unique id
+
+		relationship talk:          has and belongs to many
+
+
+Terminal
+	psql
+	create database favorites;
+	\q
+	rake -T
+	rake db:create_migration NAME=create_books
+makes files in sublime. make changes.
+Terminal->  rake db:migrate
+
+All aame thing to create/edit
+	@book = Book.new
+	@book.save
+	@book.Book.create
